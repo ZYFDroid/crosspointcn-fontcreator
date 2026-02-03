@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abcBtnPreviewText" xml:space="preserve">
+    <value>查看預覽</value>
+  </data>
+  <data name="abcFontPreviewText" xml:space="preserve">
+    <value>中國智造，惠及全球ABCabc123</value>
+  </data>
+  <data name="abcOpenFontTypeName" xml:space="preserve">
+    <value>TrueType 字體檔</value>
+  </data>
+  <data name="abcOpenFontDialogTitle" xml:space="preserve">
+    <value>選擇字體檔（可多選）</value>
+  </data>
+  <data name="abcOpenFontNoFamily" xml:space="preserve">
+    <value>選擇的字體檔中不包含任何有效的字形。</value>
+  </data>
+  <data name="abcRenderingError" xml:space="preserve">
+    <value>繪製字體時發生錯誤</value>
+  </data>
+  <data name="abcRenderingFont" xml:space="preserve">
+    <value>正在繪製字體...</value>
+  </data>
+  <data name="abcRenderingPreview" xml:space="preserve">
+    <value>繪製中...</value>
+  </data>
+  <data name="abcSaveDialogTypeName" xml:space="preserve">
+    <value>EPDFont</value>
+  </data>
+  <data name="abcSuccessDialogMsg" xml:space="preserve">
+    <value>字體檔匯出成功！</value>
+  </data>
+  <data name="abcSuccessDialogTitle" xml:space="preserve">
+    <value>匯出完成</value>
+  </data>
+  <data name="boolShowTCPreview" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="dlgConfirmSelectSystemFont" xml:space="preserve">
+    <value>是否允許 字體檔轉換 訪問電腦上已安裝的字體？
+• 本程式僅讀取字體資料用於格式轉換
+• 所有字體檔均來自您的本地設備
+• 請確認您擁有所選字體的合法使用權</value>
+  </data>
+  <data name="dlgConfirmSelectFontTitle" xml:space="preserve">
+    <value>訪問字體檔</value>
+  </data>
+  <data name="dlgConfirmSelectFontNeverAsk" xml:space="preserve">
+    <value>始終允許</value>
+  </data>
+  <data name="dlgConfirmSelectFontFile" xml:space="preserve">
+    <value>是否允許 字體檔轉換 訪問電腦存儲的字體檔？
+• 本程式僅讀取字體資料用於格式轉換
+• 所有字體檔均來自您的本地設備
+• 請確認您擁有所選字體的合法使用權</value>
+  </data>
+  <data name="dlgEULATitle" xml:space="preserve">
+    <value>軟體授權合約</value>
+  </data>
+  <data name="dlgEULAContent" xml:space="preserve">
+    <value>
+　　　　　　　　字體轉換工具使用者授權合約
+
+軟體許可
+
+本軟體基於 MIT 開源許可證授權。這意味著您有權：
+- 自由複製、修改本軟體的全部或部分原始程式碼
+- 二次開發及分發衍生版本
+- 用於個人或商業目的
+唯一要求：必須在所有副本中保留原始版權聲明和許可聲明。
+
+重要聲明
+
+1. 功能說明  
+　　本程式僅為字體格式轉換工具，可將設備上存儲的字體文
+　　件轉換為電紙書設備專用的 .bin 格式。不包含任何內
+　　置字體資源。
+
+2. 用戶責任
+　　- 您必須確保輸入字體檔已獲得合法授權
+　　- 生成的字體製品版權歸原始字體作者所有
+　　- 軟體發展者不對轉換結果承擔版權責任
+
+3. 使用限制 
+　　禁止使用本工具：
+　　- 破解受版權保護的字體檔
+　　- 分發未獲授權的字體製品
+　　- 用於侵犯智慧財產權的任何行為
+
+4. 免責條款
+　　本軟體按"原樣"提供，開發者不承擔因使用本軟體產生的
+　　任何直接或間接法律責任。
+
+
+MIT License
+
+Copyright (c) 2025 ZYFDroid
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</value>
+  </data>
+  <data name="dlgEULA2Title" xml:space="preserve">
+    <value>重要版權法律聲明</value>
+  </data>
+  <data name="dlgEULA2Content" xml:space="preserve">
+    <value>
+* 請完整閱讀本內容
+您即將生成的.bin格式字體檔受以下法律條款約束：
+
+I. 版權歸屬
+　1. 生成字體的所有著作權及相關智慧財產權均歸屬於原始字體權利方
+　2. 本程式僅為格式轉換工具，不產生新的著作權
+
+II. 授權範圍
+　生成文件僅限用於：
+　• 個人設備上的非商業性使用
+　• 學術研究與技術驗證
+　• 已獲權利方明示授權的場景
+
+III. 禁止行為
+　除非您已獲得字體版權方的許可，否則嚴格禁止以下行為：
+　1. 對生成檔進行網路傳播或商業性分發
+　2. 將檔嵌入需授權許可的商用產品
+　3. 篡改、移除或遮擋原始版權標識
+
+IV. 用戶法律責任
+　點擊「同意」即表示：
+　1. 保證所使用的源字體已獲得合法授權
+　2. 接受因違反本聲明導致的一切法律後果
+　3. 承諾不侵犯任何協力廠商的智慧財產權</value>
+  </data>
+  <data name="abcPreviewParameters" xml:space="preserve">
+    <value>估測顯示參數：
+單字大小 {3}×{4}
+{0} 行，每行 {1} 字元
+同屏最高 {2} 個中文字元
+預覽樣式和資料僅供參考，請以實機為准</value>
+  </data>
+  <data name="abcOK" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="abcCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="abcAccept" xml:space="preserve">
+    <value>同意</value>
+  </data>
+  <data name="abcPreviewEN" xml:space="preserve">
+    <value>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890,.?!'";:[]{}()&lt;&gt;!@#$%^&amp;*-=_+/\|
+由於模拟排版演算法限制，字體製作工具不支援英文排版效果。因此只能查看字元樣式。以上是該字體中的英文字元。</value>
+  </data>
+  <data name="dlgSaveFileDialogTitle" xml:space="preserve">
+    <value>保存字體檔</value>
+  </data>
+  <data name="dlgXTSDExistsDialogText" xml:space="preserve">
+    <value>檢測到閱星曈SD卡已插入，是否將默認保存資料夾切換到以下位置？（若資料夾不存在則會創建）</value>
+  </data>
+  <data name="dlgIncorrectFileNameTitle" xml:space="preserve">
+    <value>檔案名包含多個尺寸資訊</value>
+  </data>
+  <data name="dlgIncorrectFileNameText" xml:space="preserve">
+    <value>檔案名中包含多個尺寸資訊，這可能會導致閱星曈設備識別異常：
+
+檢測到的尺寸資訊：
+  {0}
+
+實際渲染尺寸：{1}
+
+請修改檔案名，確保只包含一個正確的尺寸資訊。
+
+是否重新輸入檔案名？（推薦直接使用默認檔案名）
+</value>
+  </data>
+  <data name="dlgSaveFileDialogTitleExtra" xml:space="preserve">
+    <value>（已定位到閱星曈存儲卡字體資料夾）</value>
+  </data>
+  <data name="dlgXTSDExistsDialogCheckBox" xml:space="preserve">
+    <value>始終在閱星曈SD卡插入時選擇SD卡上的字體資料夾</value>
+  </data>
+  <data name="dlgXTSDExistsDialogTitle" xml:space="preserve">
+    <value>保存到閱星曈SD卡字體資料夾</value>
+  </data>
+</root>
